@@ -1,0 +1,49 @@
+* {
+  margin: auto;
+}
+/* 
+body {
+  background-image: url("img/list-bg.png");
+} */
+
+nav>img {
+
+  height: 45px;
+  text-align: left;
+}
+
+nav {
+  width: 960px;
+  border-bottom: 3px solid gray;
+  padding: 40px;
+}
+
+main {
+  width: 960px;
+}
+
+nav>ul>img {
+  margin-left: -2px;
+}
+
+nav>ul>img:nth-child(7){
+  margin-left: 7px;
+}
+
+nav>h1 {
+  font-family: 'Pacifico', cursive;
+  font-style: italic;
+  margin-left: 10px;
+  display: inline;
+}
+
+nav>ul {
+  text-align: right;
+}
+
+nav>h2 {
+  font-size: 8px;
+  text-transform: uppercase;
+  padding-top: -20px;
+  margin-left: 10px;
+}
