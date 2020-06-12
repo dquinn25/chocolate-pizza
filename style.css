@@ -1,0 +1,29 @@
+* {
+  margin: auto;
+}
+
+body {
+  background-image: url("img/list-bg.png");
+}
+
+nav>img {
+  float: left;
+  height: 45px;
+}
+
+nav {
+  width: 960px;
+}
+
+main {
+  width: 960px;
+}
+
+nav>ul>img {
+  float: right;
+  margin-left: 2px;
+}
+
+nav>ul>img:nth-child(2){
+  margin-left: 10px;
+}
