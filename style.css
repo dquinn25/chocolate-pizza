@@ -9,7 +9,9 @@ body {
 nav>img {
 
   height: 45px;
-  text-align: left;
+  position: relative;
+  top: 20px;
+  left: 2px;
 }
 
 nav {
@@ -35,6 +37,9 @@ nav>h1 {
   font-style: italic;
   margin-left: 10px;
   display: inline;
+  position: relative;
+  top: 20px;
+  left: 2px;
 }
 
 nav>ul {
@@ -46,4 +51,27 @@ nav>h2 {
   text-transform: uppercase;
   padding-top: -20px;
   margin-left: 10px;
+  position: relative;
+  top: 25px;
+  left: 25px;
 }
+main > h2 {
+  font-size: 8px;
+  text-transform: uppercase;
+  color: lightgray;
+}
+main div:first-of-type{
+  text-align: right;
+  margin-left: 166px;
+  margin-right: 57px;
+}
+p > image {
+  display: inline;
+}
+main > h1{
+  font-weight: 300;
+  }
+
+  div > p{
+    display: inline;
+  }
